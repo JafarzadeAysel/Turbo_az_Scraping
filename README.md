@@ -1,24 +1,40 @@
-# 🚗 Car Price Prediction — Azerbaijan Market
+# Car Price Prediction: Azerbaijan Market 🚗
 
-A **Data Science** project to predict car prices in Azerbaijan using **machine learning**, geospatial analysis, and advanced feature engineering.
+This project demonstrates a comprehensive data science workflow, from data acquisition and geospatial analysis to building a high-performance **machine learning** model for predicting car prices in Azerbaijan.
 
----
-
-## 📌 Project Overview
-In this project, I collected, cleaned, and analyzed a large dataset of cars for sale in Azerbaijan, and then built a predictive model for car prices.  
-I combined **web scraping**, **data preprocessing**, **EDA**, **feature engineering**, and **machine learning** to achieve the final results.
 
 ---
 
-## 📊 Data Collection
+## Key Features 🚀
+
+- **Web Scraping:** Extracted over 40,000 car advertisements from turbo.az to create a large-scale, real-world dataset.
+
+- **Comprehensive EDA:** Performed extensive univariate and bivariate analysis to understand data distributions and relationships.
+
+- **Geospatial Analysis:** Integrated data from opendata.az to create interactive choropleth and dynamic maps showing regional car prices and counts.
+
+- **Feature Engineering:** Transformed raw data into a set of powerful, predictive features.
+
+- **High-Performance Modeling:** Built an XGBoost model that achieved an outstanding R-squared (R2) of 0.99 and a Mean Squared Error (MSE) of 0.01.
+---
+
+##  Tech Stack 
+- **Languages:** Python
+- **Libraries:** Pandas, GeoPandas, NumPy, Matplotlib, Seaborn, Folium, XGBoost, Scikit-learn
+- **Techniques:** Web scraping, EDA, Feature Engineering, Geospatial Analysis, Machine Learning
+
+---
+## Project Steps 
+
+### 1. Data Collection
 - **Source 1:** Web scraping from [Turbo.az](https://turbo.az/)  
-  → Scraped **40,000+ advertisements** using Python and BeautifulSoup/Selenium.
+  → Scraped **40,000+ advertisements** using Python and BeautifulSoup
 - **Source 2:** [Open Data Azerbaijan](https://opendata.az/)  
   → Used geospatial region data for analysis.
-
+The data included key features such as make, model, year, kilometrage, engine size, fuel type, price etc. 
 ---
 
-## 🛠 Data Cleaning
+### 2. Data Cleaning
 - Fixed **inconsistencies** across multiple columns (e.g., formatting, typos, units).
 - Dealt with **missing values**:
   - Imputed values using a **Random Forest Classifier** model.
@@ -27,26 +43,26 @@ I combined **web scraping**, **data preprocessing**, **EDA**, **feature engineer
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+### 3. Exploratory Data Analysis (EDA)
 Performed **comprehensive EDA**, including:
 - **Univariate Analysis**:
-  - Examined distributions & symmetry of numeric features.
+  - Examined distributions and symmetry of numeric features.
   - Visualized using histograms and density plots.
 - **Bivariate Analysis**:
-  - Used **bar plots** & **box plots** to explore relationships between price and categorical variables.
-  - Interpreted patterns & trends.
+  - Used **bar plots**, **pie chart** and **box plot** to explore relationships between variables.
+  - Interpreted patterns and trends.
 
 ---
 
-## 🌍 Geospatial Analysis
-- **Merged** car dataset with region shapefile from Open Data Azerbaijan.
-- Built:
-  - **Choropleth map** showing average car price by region.
-  - **Dynamic Folium map** showing car counts & regional price distribution.
+### 4. Geospatial Analysis 🌍
+
+- To add a geographic dimension to the project, I integrated a dataset from opendata.az containing the administrative boundaries of Azerbaijani regions.
+- Data Integration: Joined the scraped car data with the regional boundary data.
+- Interactive Map: Used folium to build a dynamic choropleth map. This map visualizes the average car price and car count per region, providing actionable insights into regional market variations.
 
 ---
 
-## 🧩 Feature Engineering
+### 5. Feature Engineering
 Steps included:
 1. Created new derived columns.
 2. Dropped unnecessary columns.
@@ -57,25 +73,19 @@ Steps included:
 
 ---
 
-## 🤖 Machine Learning Model
+### 6. Machine Learning Model
 - **Algorithm:** XGBoost
 - Set **basic hyperparameters** for initial tuning.
 - Evaluated model performance and achieved promising results.
 
 ---
 
-## 🚀 Tech Stack
-- **Languages:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Folium, Geopandas, XGBoost, Scikit-learn
-- **Tools:** Jupyter Notebook, GitHub
-- **Techniques:** Web scraping, EDA, Feature Engineering, Geospatial Analysis, Machine Learning
-
 ---
 
 ## 📌 Key Achievements
 ✅ Collected **40k+ real advertisements** from Turbo.az  
 ✅ Fixed messy, inconsistent data and imputed missing values intelligently  
-✅ Created **interactive maps** for Azerbaijan's car market  
+✅ Created **interactive map** for Azerbaijan's car market  
 ✅ Designed and trained an **XGBoost** model for price prediction  
 
 ---
