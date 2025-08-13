@@ -60,6 +60,11 @@ Performed **comprehensive EDA**, including:
 - Data Integration: Joined the scraped car data with the regional boundary data.
 - Interactive Map: Used folium to build a dynamic choropleth map. This map visualizes the average car price and car count per region, providing actionable insights into regional market variations.
 
+
+➡️[View the interactive map](https://jafarzadeaysel.github.io/Turbo_az_Scraping/car_price_dynamic_map.html)
+
+
+
 ---
 
 ### 5. Feature Engineering
@@ -91,7 +96,6 @@ Steps included:
 ---
 
 ## 📷 Sample Visuals
-*(You can add screenshots or GIFs of your EDA, maps, and model results here.)*
 
 ---
 
