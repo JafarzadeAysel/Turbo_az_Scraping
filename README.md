@@ -61,7 +61,7 @@ Performed **comprehensive EDA**, including:
 - Interactive Map: Used folium to build a dynamic choropleth map. This map visualizes the average car price and car count per region, providing actionable insights into regional market variations.
 
 
-Click to view the interactive map in detail➡️[Link🔗](https://jafarzadeaysel.github.io/Turbo_az_Scraping/car_price_dynamic_map.html)
+Click to view the interactive map in detail➡️[Link🔗](https://jafarzadeaysel.github.io/Turbo_az_Scraping/car_price_map.html)
 ---
 ![](https://github.com/JafarzadeAysel/Turbo_az_Scraping/blob/main/photo_and_gifs/interactive_map.gif "Most Expensive cars")
 
